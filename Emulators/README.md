@@ -13,3 +13,72 @@ GBA: An input test ROM from ROMHacking.net. Credit goes to [Hammer Keyboard Stud
 Sega: An input test ROM for the 6 button Sega Genesis controllers. Credit goes to [Hugues Johnson](https://www.romhacking.net/homebrew/126/)
 
 I cannot in good faith redistribute the emulators as I originally found them, as all but 1 came with a copyrighted ROM (the only exception is the Gameboy emulator, which came with The Bouncing Ball). The NES one came with a Japanese copy of Contra. The Genesis one came with a copy of Super Shinobi, and so on. For obvious reasons, I had to change these to free homebrew applications so I wouldn't get DMCA notices filed against me. However, I have tested a small amount of games, and even ROM hacks still work nicely. I've tested the popular ROM hack [Pokémon Crystal Clear](https://www.youtube.com/watch?v=PQYBsZ78fdI), Earthbound, Super Castlevania 4, Sonic the Hedgehog (including a hack allowing the player to spindash), Pokémon Red, Blue, Yellow, Gold, Silver, Crystal as well as Emerald, Contra 3 - The Alien Wars and Castlevania: Dracula X. All of them have worked great. There were minor issues, but nothing that's impossible to work with (aside from the fact that I'm trash at old and hard games). 
+
+Default controls:
+
+# NES: 
+Z: A
+
+X: B
+
+Arrow Keys: D-Pad
+
+Enter: Start
+
+Space: Select
+
+# SNES: 
+
+Z: A
+
+X: B
+
+A: X
+
+S: Y
+
+Arrow Keys: D-pad
+
+D: L
+
+C: R
+
+Enter: Start
+
+Space: Select.
+
+# GB (cannot be reconfigured):
+
+Q: A
+
+W: B
+
+Arrow Keys: D-pad
+
+Enter: Start
+
+Space: Select
+
+# Sega:
+
+Z: A
+
+X: B
+
+C: C
+
+A: X
+
+S: Y
+
+D: Z
+
+Arrow Keys: D-pad
+
+Enter: Start
+
+Space: Mode
+
+# GBA:
+
+See NES, the L and R buttons are C and D respectively.
