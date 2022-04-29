@@ -102,3 +102,6 @@ Sega: .md, .bin
 Gameboy: .gb, .gbc
 
 Gameboy Advance: .gba
+
+
+Keep in mind, these emulators are only going to act as if you are using the standard controller. This means that games that use other accessories like the NES Zapper for games like Duck Hunt or Hogan's Alley, the SNES mouse for games like Mario Paint, the Gameboy camera and printer for the Gameboy Camera and so on will be unplayable. In addition, I cannot test every single game. There are bound to be obscure ones or ones that just don't work, especially unlicensed games that the emulator isn't prepared to take. Some ROM hacks are supported though, so if you want to play something like Nintendo World Championships, you'll have to use a patch like [this one](https://www.romhacking.net/hacks/6213/) to enable starting the game through the first player's controller. I cannot confirm as to which ones do and don't work, so that will be up to you. Remember, these aren't the most up to date emulators or anything, so not everything will be perfect. I also don't have the real source code, this is simply only kept as an archive.
