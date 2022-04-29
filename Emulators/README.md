@@ -82,3 +82,23 @@ Space: Mode
 # GBA:
 
 See NES, the L and R buttons are C and D respectively.
+
+# How to inject ROMs:
+
+I've been asked this a ton, it is quite easy. I suppose it's on me for not explaining how to do it. As always, download the latest version of [ffDec](https://github.com/jindrapetrik/jpexs-decompiler/releases) and have any ROM ready. I will not assist in finding ROMs, you have to do that yourself. For the Gameboy emulator, to change ROMs, you have to open Gameboy.swf and open the binaryData tab. Inside will be a file called DefineBinaryData (1: Rom). Right click that and click the Replace... button. This will open a new menu where you can select a file, in the case of the Gameboy emulator, you may select any .gb or .gbc file and then choose to open it. This will replace the ROM with the one that you chose. Assuming you already hooked up the [Flash projector](https://web.archive.org/web/20220401020702/https://www.adobe.com/support/flashplayer/debug_downloads.html), you can choose to run it and it will happily take your ROM file and display it.
+
+The process for the other emulators is a little different, as they are a fork of the [NESBox emulator](https://nesbox.com/) that I had laying around, but I don't remember where I got them from exactly. Even if I did, I wouldn't be able to link them directly. As said above, they contained ROMs that I'm not allowed to distribute as they contain copyrighted content. This is why all of them contain homebrew software. 
+
+I'm going to use the SNES emulator (Snes.swf) for this example. Open the .swf like you did for the Gameboy emulator. Expand the binaryData tab and look for the option DefineBinaryData (16: Nesbox2__res_cls_rom). This is where you will replace the existing ROM with your own game. Just like you did for the Gameboy emulator, right click the option and choose Replace..., then choose any .sfc or .smc ROM file and open that. Once it is injected, you will be able to play it through the emulator. You can place this on your website to run games if you'd like. I do not take any ownership over what you do with this. I can't be bothered to type a legal disclaimer, so, we'll just say that you have been warned and I take no responsibility if you get in trouble for anything.
+
+Supported file types:
+
+Nes: .nes
+
+Snes: .sfc, .smc
+
+Sega: .md, .bin
+
+Gameboy: .gb, .gbc
+
+Gameboy Advance: .gba
