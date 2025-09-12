@@ -47,7 +47,7 @@ Enter: Start
 
 Space: Select.
 
-# GB (cannot be reconfigured):
+# GB (cannot be reconfigured, I recommend using the [Goombo Color emulator](https://www.dwedit.org/gba/goombacolor.php) to convert these to .gba files and not actually using this emulator) 
 
 Q: A
 
