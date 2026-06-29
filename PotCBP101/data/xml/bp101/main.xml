@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Pirates of the Caribbean: Dead Mans Chest -->
+<!--      Black Pearl 101 Content Database     -->
+<potcXML>
+ 
+  <init>
+  	<!-- Text for the ENTER button -->
+  	<enter>Come Aboard</enter>
+  </init>
+  
+  <splashPage>
+    <!-- splash page text -->
+    <intro>     Join Cap'n Jack's crew by showing you know the Black Pearl through and through - but beware! Too many wrong answers and you may suffer walkin' the plank.</intro>
+	<btn>
+		<!-- text on BLACK PEARL TUTORIAl button-->
+		<bp><![CDATA["Learn About<br />The<br />Black Pearl"]]></bp>
+		<!-- text on CREW THE BLACK PEARL button-->
+		<crew>Crew The Black Pearl</crew>
+	</btn>
+  </splashPage>
+  
+  <!-- Titles for the Switching Menu -->
+  <switchOption>
+  	<bp>Black Pearl 101</bp>
+	<ctbp>Crew The Black Pearl</ctbp>
+  </switchOption>
+    
+  <!-- Tutorial Instructions -->
+  <bp101>
+    <text>     Neither the sea nor Captain Jack shall show mercy for the inexperienced pirate.  When you're ready, click "Crew the Black Pearl" to test you knowledge.</text>
+	 <btn>
+	 	<!-- START button text -->
+		<manual>Get Started!</manual>
+	 </btn>
+  </bp101>
+  
+  <!-- Crew The Black Pearl Game Instructions --> 
+  <ctbp>
+    <text>     <![CDATA[Two modes to choose: Buccaneer or Landlubber, and your score determines your rank in the crew -- so, pay attention, Cap'n's orders!]]></text>
+    <btn>
+	  <!-- Easy Game Btn Text -->
+	  <easy>
+	    <pirate>Landlubber</pirate>
+	    <normal>Easy</normal>
+	  </easy>
+	  <!-- Easy Game Btn Text -->
+	  <hard>
+	    <pirate>Buccaneer</pirate>
+	    <normal>Hard</normal>
+	  </hard>
+   </btn>
+  </ctbp>
+  
+  <!-- Validation Node DO NOT TOUCH -->
+  <validate>
+    <value>true</value>
+  </validate>
+
+</potcXML>
