@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Pirates of the Caribbean: Dead Mans Chest -->
+<!--      Black Pearl 101  Quiz  Database      -->
+
+<potcQuiz>
+
+  <!-- modenames -->
+  <mode>
+  	<easy>
+		<norm>Easy</norm>            <!-- simple Name -->
+		<pirate>Landlubber</pirate>  <!-- pirate Name -->
+	</easy>
+	<hard>
+		<norm>Hard</norm>
+		<pirate>Buccaneer</pirate>
+	</hard>
+  </mode>
+  
+  <!-- question types -->
+  <qType>
+  	<true>TRUE</true>
+	<false>FALSE</false>
+  </qType>
+  
+  <!-- List of quiz question and Answers -->
+  <quizPool>
+  	
+	<!-- Multiple Choice Section -->
+	<item>
+		<!-- MultipleChoice or trueFalse -->
+		<type>MultipleChoice</type>
+		<!-- questions -->
+		<ques>What are the names of the Black Pearl's three masts?</ques>
+		<!-- answers -->
+		<ans>
+			<item>Fore Mast, Main Mast, Mizzen Mast</item><!-- first answer is ALWAYS the right answer -->
+			<item>Topgallant, Fore Mast, Topmast</item>
+			<item>Mizzen Mast, Flying Jib, Gaff</item>
+			<item>Bowsprit, Mizzen Mast, Fore Mast</item>
+			<item>Main Mast, Topmast, Bowsprit</item>
+		</ans>
+	</item>
+	
+	<item>
+	   <type>MultipleChoice</type>
+	   <ques>How many sails are rigged (tied) to the foremast?</ques>
+	   <ans>
+		  <item>5</item><!-- first answer is ALWAYS the right answer -->
+		  <item>4</item>
+		  <item>3</item>
+		  <item>2</item>
+		  <item>6</item>
+	  </ans>
+	</item>
+ 
+  	<item>
+	   <type>MultipleChoice</type>
+	   <ques>Name The Sails of The Main Mast:</ques>
+	   <ans>
+		  <item>Course, Topsail, Topgallant</item><!-- first answer is ALWAYS the right answer -->
+		  <item>Course, Topgallant, Topmast</item>
+		  <item>Topmast Staysail, Course, Topsail</item>
+		  <item>Flying Jib, Topmast Staysail, Topgallant</item>
+		  <item>Topgallant, Course</item>
+	  </ans>
+	</item>
+	<!--
+	<item>
+	   <type>MultipleChoice</type>
+	   <ques>Why is the Bowsprit elevated at an angle?</ques>
+	   <ans>
+		  <item>So it is not buried in the waves.</item>first answer is ALWAYS the right answer 
+		  <item>To demonstrate the direction of sea-faring.</item>
+		  <item>To show the sailors where they have been</item>
+		  <item>For the attachment of foresails.</item>
+		  <item>To look cool.</item>
+	  </ans>
+	</item>
+	-->
+	<item>
+	   <type>MultipleChoice</type>
+	   <ques>Which sails aid the Ship's Navigation?</ques>
+	   <ans>
+		  <item>Fore Staysail, Flying Jib, Mizzen Staysail</item><!-- first answer is ALWAYS the right answer -->
+		  <item>Fore Topgallant, Mizzen Course, Main Course</item>
+		  <item>Main Topmast, Fore Topmast, Flying Jib</item>
+		  <item>Mizzen Staysail, Mizzen Course, Fore Course</item>
+		  <item>Main Topgallant, Fore Topgallant, Flying Jib</item>
+	  </ans>
+	</item>
+	
+	<item>
+	   <type>MultipleChoice</type>
+	   <ques>What other object is called a "capstan" but has nothing to do with a boat.</ques>
+	   <ans>
+		  <item>A tape recorder.</item><!-- first answer is ALWAYS the right answer -->
+		  <item>A pulley system.</item>
+		  <item>A clock.</item>
+		  <item>A scale.</item>
+		  <item>A compus</item>
+	  </ans>
+	</item>
+
+	<item>
+	   <type>MultipleChoice</type>
+	   <ques>Which is not a name for the Ship's Wheel?</ques>
+	   <ans>
+		  <item>Yawl</item><!-- first answer is ALWAYS the right answer -->
+		  <item>Tiller</item>
+		  <item>Helm</item>
+		  <item>Cats Head</item>
+		  <item>Khelman</item>
+	  </ans>
+	</item>
+	
+	<item>
+	   <type>MultipleChoice</type>
+	   <ques>When were figureheads first implemented into the design of a ship?</ques>
+	   <ans>
+		  <item>16th Century.</item><!-- first answer is ALWAYS the right answer -->
+		  <item>15th Century.</item>
+		  <item>12th Century.</item>
+		  <item>19th Century.</item>
+		  <item>18th Century.</item>
+	  </ans>
+	</item>
+	
+	<item>
+	   <type>MultipleChoice</type>
+	   <ques>Where is the figurehead located on a ship</ques>
+	   <ans>
+		  <item>The Prow.</item><!-- first answer is ALWAYS the right answer -->
+		  <item>The Stern.</item>
+		  <item>The Deck.</item>
+		  <item>Above the Captain's quarters.</item>
+		  <item>The Hull.</item>
+	  </ans>
+	</item>
+	
+	<item>
+	   <type>MultipleChoice</type>
+	   <ques>To perform errands or to make it to land, pirates use...</ques>
+	   <ans>
+		  <item>Jolly Boats</item><!-- first answer is ALWAYS the right answer -->
+		  <item>Capstan</item>
+		  <item>Helm</item>
+		  <item>Cats Head</item>
+		  <item>Grate</item>
+	  </ans>
+	</item>
+
+	<item>
+	   <type>MultipleChoice</type>
+	   <ques>The Black Pearl was originally dubbed the</ques>
+	   <ans>
+		  <item>Wicked Wench</item><!-- first answer is ALWAYS the right answer -->
+		  <item>Whiney Wench</item>
+		  <item>Jolly Roger</item>
+		  <item>Wicked Weather</item>
+		  <item>Davy Jones</item>
+	  </ans>
+	</item>
+	
+	<item>
+	   <type>MultipleChoice</type>
+	   <ques>Who raised the Black Pearl from its watery grave?</ques>
+	   <ans>
+		  <item>Davy Jones</item><!-- first answer is ALWAYS the right answer -->
+		  <item>Red Beard</item>
+		  <item>Bootstrap Bill</item>
+		  <item>The Kraken</item>
+		  <item>Black Beard</item>
+	  </ans>
+	</item>
+	
+	<!-- TrueFalse bunch -->
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>The Topgallant Sails are best used in high wind situations.</ques>
+	   <ans>false</ans>
+	</item>
+	
+	<item>
+		<type>TrueFalse</type>
+		<ques>The Fore Topmast Staysail has the strongest steering power.</ques>
+		<ans>false</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>The Fore Topmast Staysail and Flying Jib are both square.</ques>
+	   <ans>false</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>When not in use, the Flying Jib is tied to the Bowsprit.</ques>
+	   <ans>true</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>The Mizzen Mast has only TWO sails.</ques>
+	   <ans>true</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>The Belfry is used to signify changes in shift.</ques>
+	   <ans>true</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>The Bow is a term for the back of the ship.</ques>
+	   <ans>false</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>The Captain's Quarters are located in the lowest part of the ship.</ques>
+	   <ans>false</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>A ship's hull must be submerged.</ques>
+	   <ans>true</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>The Flying Jib must be made of strong material to withstand the elements.</ques>
+	   <ans>false</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>A Belfry is comprised of bells.</ques>
+	   <ans>true</ans>
+	</item>
+
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>The Gun Deck is on the starboard side (left if on board facing Bowsprit).</ques>
+	   <ans>true</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>The Bowsprit may be called a mast but is not because it lies slightly elevated from the horizon.</ques>
+	   <ans>true</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>The Captain's Quarters may be used as a surgery during a ship battle.</ques>
+	   <ans>true</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>The Crew's Quarters do not have any cannons.</ques>
+	   <ans>false</ans>
+	</item>
+	
+	<item>
+	   <type>TrueFalse</type>
+	   <ques>Jack Sparrow was once employed by the East India Trading Company.</ques>
+	   <ans>true</ans>
+	</item>
+  
+  </quizPool>
+  
+  <!-- Quiz Finale Text -->
+  <quizFinale>
+    <!-- opening text satying the level they have reached -->
+  	<declare>Congratulations</declare>
+	<!-- text to redo -->
+	<redo>
+		<txt><![CDATA[Click<i> RETRY</i> to take the quiz again.]]></txt>
+		<btn>Retry</btn>
+	</redo>
+	<!-- OR option -->
+	<option>--</option>
+	<!-- text to contintue -->
+	<proceed>
+		<txt><![CDATA[Pirate]]></txt>
+		<btn>Continue</btn>	
+	</proceed>
+  </quizFinale>
+  
+  
+  <!-- reward scheme -->
+  <rScheme>
+     <!-- path to rewardImages -->
+  	<rewardPath>images/bp101/reward/</rewardPath>
+	<generic>
+		<item>
+			<iPath>gen/</iPath>
+			<level>Congratulations</level>
+			<fName>blackPearl</fName>
+		</item>
+	</generic>
+	<hard>
+		<item>
+			<iPath>hard/</iPath>
+			<level>Buccaneer</level>
+			<fName>hard</fName>
+		</item>
+	</hard>
+  	<special>
+		<item>
+			<iPath>qm/</iPath>
+			<score>11</score>
+			<level>Quartermaster</level>
+			<fName>qmaster</fName>
+		</item>
+		<item>
+			<iPath>bw/</iPath>
+			<score>8</score>
+			<level>Boatswain</level>
+			<fName>boatswain</fName>
+		</item>
+		<item>
+			<iPath>gn/</iPath>
+			<score>5</score>
+			<level>Gunner</level>
+			<fName>gunner</fName>
+		</item>
+		<item>
+			<iPath>mt/</iPath>
+			<score>3</score>
+			<level>Mate</level>
+			<fName>mate</fName>
+		</item>
+	</special>
+	<!-- image dimensions -->
+	<sizes>
+		<wide>
+			<name>Wide</name>
+			<item>1920x1200</item>
+			<item>1680x1050</item>
+		</wide>
+		<full>
+			<name>Full</name>
+			<item>1280x1024</item>
+			<item>1024x768</item>
+			<item>800x600</item>
+		</full>
+	</sizes>
+  </rScheme>
+
+  <!-- Validation Node DO NOT TOUCH -->
+  <validate>
+    <value>true</value>
+  </validate>
+
+</potcQuiz>

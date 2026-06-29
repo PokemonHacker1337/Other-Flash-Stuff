@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Pirates of the Caribbean: Dead Mans Chest -->
+<!--      Black Pearl 101  IMAGE Database      -->
+<potcDB>
+  
+  <!-- Path to full images -->
+  <fPath>images/bp101/full/</fPath>
+  <!-- Path to thumb images -->
+  <tPath>images/bp101/thumb/</tPath>
+  
+  <!-- modenames -->
+  <mode>
+  	<manual>Manual</manual>
+	<auto>Automatic</auto>
+	<autoDetails>
+		<next>NEXT</next>
+		<prev>PREV</prev>
+	</autoDetails>
+  </mode>
+  
+  <!-- end of tutorial options -->
+  <endTitles>
+  	<restart>Replay The Black Pearl Tutorial</restart>
+	<game>Play Crew The Black Pearl</game>
+  </endTitles>
+  
+  <!-- SAILS/MASTS: Fore and Main Mast -->
+  <section>
+	<group>sails_masts</group>
+	<sID>01</sID>
+	<sName>Fore and Main Mast</sName>
+	<content>     <![CDATA[The Black Pearl has three masts -- the <i>Fore</i>, <i>Mizzen</i>, and <i>Main</i>. Each mast has three sails:<i>Course</i>, <i>Topsail</i>, and <i>Topgallant</i>.  The Course Sail offers a great amount of power but the Topsail can receive a steadier gust of wind. The Topgallant Sails are utilized for added speed when the breeze is low.]]></content>
+	<image>
+	  <path>sails_masts/foreMainMast/</path>
+	  <item>foreMainMast_1.jpg</item>
+	  <item>foreMainMast_5.jpg</item>
+	  <item>foreMainMast_2.jpg</item>
+	  <item>foreMainMast_3.jpg</item>
+	  <item>foreMainMast_4.jpg</item>
+	  
+	</image>
+  </section>
+  
+  <!-- SAILS/MASTS: Fore Staysail / Flying Jib  -->
+  <section>
+	<group>sails_masts</group>
+	<sID>02</sID>
+	<sName>Fore Staysail and Flying Jib</sName>
+	<content>     <![CDATA[The <i>Fore Topmast Staysail</i> and <i>Flying Jib</i> are larger triangular sails used for steering.  Both sails are rigged to the Fore Mast and Bowsprit. The Flying Jib has the strongest steering power, while the Fore Topmast Staysail is made of a heavier material that withstands harsh weather.]]></content>
+	<image>
+	  <path>sails_masts/foreStaySail_flyingJib/</path>
+	  <item>flyJib_1.jpg</item>
+	  <item>flyJib_2.jpg</item>
+	  <item>foreStaySail_1.jpg</item>
+	  <item>flyJib_3.jpg</item>
+	  <item>foreStaySail_2.jpg</item>
+	</image>
+  </section>
+  
+  <!-- SAILS/MASTS: Fore and Main Mast -->
+  <section>
+	<group>sails_masts</group>
+	<sID>03</sID>
+	<sName>Mezzin Mast</sName>
+	<content>     <![CDATA[This is the Black Pearl's third mast, and it has two sails: the Mizzen Topsail and the Mizzen Topmast Staysail.  The <i>Mizzen Topsail</i> helps catch a steady breeze for the ship to sail, while the <i>Mizzen Topmast Staysail</i> keeps the ship on course.  Anchors away!]]></content>
+	<image>
+	  <path>sails_masts/mezzinMast/</path>
+	  <item>mezz_2.jpg</item>
+	  <item>mezz_1.jpg</item>
+	  <item>mezz_3.jpg</item>
+	  <item>mezz_4.jpg</item>
+	</image>
+  </section> 
+  
+  <!-- DECK: Upper Deck -->
+  <section>
+	<group>deck</group>
+	<sID>04</sID>
+	<sName>Upper Deck</sName>
+	<content>     <![CDATA[Near the stern - on deck, you'll find the <i>Captain's Quarters</i>, the <i>Belfry</i>, and the <i>Ship's Wheel</i>.  The Belfry is a belltower that is rung every hour, signifying the time to keep our pirates on task!  The Rudder is controlled from the Ship's Wheel, called the tiller, or the Helm -- from the Germanic word <i>khelman</i>.]]></content>
+    <image>
+      <path>deck/upperDeck/</path>
+      <item>upperDeck_1.jpg</item>
+	  <item>upperDeck_2.jpg</item>
+	  <item>upperDeck_3.jpg</item>
+	  <item>upperDeck_4.jpg</item>
+	  <item>upperDeck_5.jpg</item>
+	  <item>upperDeck_6.jpg</item>
+	  <item>upperDeck_7.jpg</item>
+    </image>
+  </section>
+  
+  <!-- DECK: Main Deck -->
+  <section>
+	<group>deck</group>
+	<sID>05</sID>
+	<sName>Main Deck</sName>
+	<content>     <![CDATA[The Main Deck gives us the <i>Capstan</i>, the <i>Gun Deck</i>, and the <i>Jolly Boats</i>.  The Capstan is used to raise or drop the Main Course Sail by turning it.  It works like pressing rewind or fast-forward on a tape recorder (also known as a capstan). On the Port Side lies the Gun Deck, and jolly boats are stored on deck so pirates can get to shore for errands, and pillaging, of course!]]></content>
+    <image>
+      <path>deck/mainDeck/</path>
+      <item>mainDeck_1.jpg</item>
+	  <item>mainDeck_2.jpg</item>
+	  <item>mainDeck_3.jpg</item>
+	  <item>mainDeck_4.jpg</item>
+	  <item>mainDeck_4b.jpg</item>
+	  <item>mainDeck_5.jpg</item>   
+    </image> 
+  </section>
+  
+  <!--DECK: Anchor -->
+  <section>
+	<group>deck</group>
+	<sID>06</sID>
+	<sName>Anchor</sName>
+	<content>     <![CDATA[The <i>Anchor</i> digs into the seabed, but keeps from being buried -- which is key.  No pirate can handle being locked in -- even at sea. Every pirate ship needs an anchor to either stop completely or keep the ship stable.  Got it, landlubbers?]]></content>
+    <image>
+      <path>deck/anchor/</path>
+      <item>anchor_1.jpg</item>
+      <item>anchor_2.jpg</item>
+      <item>anchor_3.jpg</item>
+    </image> 
+  </section>
+  
+  <!-- DECK: Bowsprit -->
+  <section>
+	<group>Deck</group>
+	<sID>07</sID>
+	<sName>Bowsprit</sName>
+	<content>     <![CDATA[The <i>Bowsprit</i> is a mast, even though it lays slightly elevated from the horizon.  It anchors the Fore Topmast Staysail and Flying Jib, making the Fore Mast closer to the bow of the ship and further away from the Main Mast, creating a much-needed breeze to get our ship on the go.]]></content>
+    <image>
+      <path>deck/bowSprit/</path>
+      <item>bowSprit_1.jpg</item>
+      <item>bowSprit_2.jpg</item>
+	  <item>bowSprit_3.jpg</item>	  
+      <item>bowSprit_4.jpg</item>
+	  <item>bowSprit_5.jpg</item>
+    </image> 
+  </section>
+  
+  <!-- HULL: Captains Quarters -->
+  <section>
+	<group>hull</group>
+	<sID>08</sID>
+	<sName>Captain's Quarters</sName>
+	<content>     This is the largest room on our ship, occupied by the one and only Captain Jack Sparrow.  When the ship is under attack, this room can be transformed into a surgery due to its spaciousness amongst very cramped quarters.</content>
+    <image>
+      <path>hull/captainsQuarters/</path>
+      <item>captainsQuarters_1.jpg</item>
+      <item>captainsQuarters_2.jpg</item>
+      <item>captainsQuarters_3.jpg</item>
+      <item>captainsQuarters_4.jpg</item>
+      <item>captainsQuarters_5.jpg</item>
+      <item>captainsQuarters_6.jpg</item>
+      <item>captainsQuarters_7.jpg</item>
+    </image> 
+  </section>
+  
+  <!-- HULL: Crew Quarters -->
+  <section>
+	<group>hull</group>
+	<sID>09</sID>
+	<sName>Crew's Quarters</sName>
+	<content>     The crew sleeps in the hammocks that line the sides of the ship.  Underneath and sometime to the sides of the hammocks are more guns from the Black Pearl's arsenal if the need arises.</content>
+    <image>
+      <path>hull/crewsQuarters/</path>
+      <item>crewsQuarters_1.jpg</item>
+      <item>crewsQuarters_2.jpg</item>
+      <item>crewsQuarters_3.jpg</item>
+      <item>crewsQuarters_4.jpg</item>
+      <item>crewsQuarters_5.jpg</item>
+      <item>crewsQuarters_6.jpg</item>
+      <item>crewsQuarters_7.jpg</item>
+      <item>crewsQuarters_8.jpg</item>
+      <item>crewsQuarters_9.jpg</item>
+    </image> 
+  </section>
+  
+  <!-- HULL: Figure Head -->
+  <section>
+	<group>hull</group>
+	<sID>10</sID>
+	<sName>Figure Head</sName>
+	<content>     A Figurehead is a carved decoration at the prow of a ship, beginning in the 16th century -- often displaying the name of a ship.  Originally, the Black Pearl was a merchant vessel under the employment of the East India Trading Company named the Wicked Wench, helmed by Captain Jack. After refusing to complete an assignment, Lord Cutler Beckett sanctioned the torching (and sinking) of the Wicked Wench, and branded Jack Sparrow a pirate. Jack petitioned Davy Jones to retrieve his ship that he rechristened as: 'The Black Pearl.'</content>
+    <image>
+      <path>hull/figureHead/</path>
+      <item>figureHead_1.jpg</item>
+	  <item>figureHead_2.jpg</item>
+	  <item>figureHead_3.jpg</item>
+	  <item>figureHead_4.jpg</item>
+	  <item>figureHead_5.jpg</item>
+	  <item>figureHead_6.jpg</item>	  
+	  <item>figureHead_7.jpg</item>
+    </image> 
+  </section>
+  
+  <!-- HULL: Storage -->
+  <section>
+	<group>hull</group>
+	<sID>11</sID>
+	<sName>Storage</sName>
+	<content>     The lowest part of the ship is full of supplies, cargo, ammunition, food, dead weight, and bottles of Captain Jack's rum, of course.  Ships are designed to float above the water but must be weighed down to submerge enough of the ship's hull -- a real balancing act.</content>
+    <image>
+      <path>hull/storage/</path>
+      <item>storage_1.jpg</item>
+      <item>storage_2.jpg</item>
+      <item>storage_3.jpg</item>
+      <item>storage_4.jpg</item>
+      <item>storage_5.jpg</item>
+      <item>storage_6.jpg</item>
+      <item>storage_7.jpg</item>
+    </image> 
+  </section>
+    
+  <!-- Validation Node DO NOT TOUCH -->
+  <validate>
+    <value>true</value>
+  </validate>
+  
+</potcDB>
